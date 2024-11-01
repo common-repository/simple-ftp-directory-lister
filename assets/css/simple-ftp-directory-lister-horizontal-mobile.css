@@ -1,0 +1,102 @@
+  /*horizontal mobile -> vertical layout*/
+  .folder-icon {
+    width: 20px;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 7px 0px 0px;
+    position: relative;
+    top: 3px;
+    display: inline;
+  }
+
+  .download-icon {
+    width: 14px;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 7px 0px 0px;
+    position: relative;
+    top: 3px;
+    display: inline;
+  }
+
+  .directory-lister-wrapper>.slozka {
+    color: black;
+    border: 0px transparent;
+    padding-bottom: 15px;
+  }
+
+  .slozka {
+    margin-left: 20px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 20px !important;
+    padding-right: 20px;
+  }
+
+  .soubor {
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: auto !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .soubor a, .soubor a:visited, .soubor a:focus {
+    text-decoration: none;
+    outline: 0;
+    color: #4f7cbe;
+  }
+
+  .slozka {
+    cursor: pointer;
+  }
+
+  .zobrazit-slozku {
+    display: block;
+  }
+
+  .schovat-slozku {
+    display: none;
+  }
+
+  #directory-lister .empty-inside {
+    background-color: #ffb2b2;
+    cursor: default;
+    text-decoration: line-through;
+    display: none;
+    visibility: hidden;
+  }
+
+  .sfdl-icon.download-icon {
+    height: 100%;
+    width: 20px;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    position: absolute;
+    top: 0px;
+    background-position: center !important;
+    display: inline-block;
+    left: 0px;
+  }
+
+  .sfdl-icon.folder-icon, .sfdl-icon.folder-icon-white {
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    display: inline-block;
+  }
+
+  .soubor, .slozka {
+    position: relative;
+  }
+
+  .slozka {
+    padding-left: 20px;
+  }
+
+  .soubor {
+    padding-left: 30px;
+  }

@@ -1,0 +1,148 @@
+  /*horizontal layout*/
+  .folder-icon, .folder-icon-white {
+    width: 20px;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 7px 0px 0px;
+    position: relative;
+    top: 3px;
+    display: inline;
+    float: left;
+  }
+
+  .download-icon {
+    width: 14px;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 7px 0px 0px;
+    position: relative;
+    top: 3px;
+    display: inline;
+    float: left;
+  }
+
+  .directory-lister-wrapper>.slozka {
+    color: black;
+    border: 0px transparent;
+    margin-bottom: 15px;
+    display: flex;
+  }
+
+  .directory-lister-wrapper>.slozka>.child-wrapper, .directory-lister-wrapper>.slozka>.child-wrapper>.slozka>.child-wrapper {
+    left: 100%;
+  }
+
+  .directory-lister-wrapper>.slozka>.child-wrapper>.slozka, .directory-lister-wrapper>.slozka>.child-wrapper>.soubor {
+    position: relative;
+    left: 0px;
+  }
+
+  .directory-lister-wrapper>.slozka>.child-wrapper>.slozka>.child-wrapper>.soubor, .directory-lister-wrapper>.slozka>.child-wrapper>.slozka>.child-wrapper>.slozka {
+    position: relative;
+  }
+
+  .directory-lister-wrapper>.slozka>.child-wrapper>.slozka>.child-wrapper>.slozka .child-wrapper, .directory-lister-wrapper>.slozka>.child-wrapper>.slozka>.child-wrapper>.slozka .child-wrapper {
+    top: 36px;
+    left: 7px;
+  }
+
+  .child-wrapper {
+    width: 100vw;
+  }
+
+  .directory-lister-wrapper>.slozka>.nazev-slozky>.sfdl-icon.folder-icon {
+    display: none;
+  }
+
+  .directory-lister-wrapper>.slozka>.child-wrapper .slozka>.nazev-slozky {
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+    left: -10px;
+    position: relative;
+  }
+
+  .directory-lister-wrapper>.slozka>.nazev-slozky {
+    background-color: #eaeaea;
+    padding: 5px 10px 5px 10px;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .directory-lister-wrapper>.slozka, .directory-lister-wrapper>.soubor {
+    max-width: 30%;
+  }
+
+  .slozka {
+    margin-bottom: 0px;
+    color: black;
+    font-size: 20px !important;
+  }
+
+  .soubor {
+    cursor: auto !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .soubor a, .soubor a:visited, .soubor a:focus {
+    text-decoration: none;
+    outline: 0;
+    color: #4f7cbe;
+  }
+
+  .slozka {
+    cursor: pointer;
+  }
+
+  .zobrazit-slozku {
+    visibility: visible;
+  }
+
+  .schovat-slozku {
+    visibility: hidden;
+  }
+
+  #directory-lister .empty-inside {
+    background-color: #ffb2b2;
+    cursor: default;
+    text-decoration: line-through;
+    display: none;
+    visibility: hidden;
+  }
+
+  .sfdl-icon.download-icon {
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    top: 0px;
+    background-position: center !important;
+    display: inline-block;
+  }
+
+  .sfdl-icon.folder-icon, .sfdl-icon.folder-icon-white {
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    display: inline-block;
+  }
+
+  .soubor, .slozka {
+    position: relative;
+  }
+
+  .subfolder-selected {
+    background-color: #01a0e2;
+    color: white;
+  }
+
+  .directory-lister-wrapper .child-wrapper {
+    position: absolute;
+    top: 0px;
+  }
+
+  .directory-lister-wrapper>.slozka>.child-wrapper {
+    max-width: 100%;
+  }

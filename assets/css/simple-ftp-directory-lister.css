@@ -1,0 +1,54 @@
+/*global styles*/
+.directory-lister-wrapper {
+  overflow-wrap: break-word;
+  word-break: break-all;
+  visibility: hidden;
+}
+
+.entry-content {
+  /*  background-color: pink !important;*/
+}
+
+@media only screen and (min-width: 600px) {
+  .sfdl-loading-gif {
+    position: relative;
+    top: calc(50% - 64px);
+    left: calc(50% - 64px);
+    z-index: 999;
+    width: 128px;
+    height: 128px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .sfdl-loading-gif {
+    position: relative;
+    top: 20px;
+    left: calc(50% - 32px);
+    z-index: 999;
+    width: 64px;
+    height: 64px;
+    display: block;
+  }
+}
+
+.sdfl-no-files-available-wrapper::after {
+  content: "";
+}
+
+.sdfl-no-files-available-wrapper {
+  height: 100px;
+  text-align: center;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.sdfl-no-files-available-icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: auto;
+  margin-bottom: 20px;
+}
